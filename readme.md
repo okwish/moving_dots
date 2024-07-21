@@ -29,14 +29,10 @@ For example, a sample is classified as class 5 if the first and fourth dots are 
 ![Moving Dots](images/moving_dots.png)
 
 
-<img src="images/1.gif" alt="c1" width="250"/>
-<img src="images/2.gif" alt="c2" width="250"/>
-<img src="images/3.gif" alt="c3" width="250"/>
+<img src="images/1.gif" alt="c1" width="250"/> <img src="images/2.gif" alt="c2" width="250"/> <img src="images/3.gif" alt="c3" width="250"/>
 
 
-<img src="images/4.gif" alt="c4" width="250"/>
-<img src="images/5.gif" alt="c5" width="250"/>
-<img src="images/6.gif" alt="c6" width="250"/>
+<img src="images/4.gif" alt="c4" width="250"/> <img src="images/5.gif" alt="c5" width="250"/> <img src="images/6.gif" alt="c6" width="250"/>
 
 This dataset has a dynamic character. 
 Each datapoint, initially with dimension (frame, dot, 2), is reshaped into (frame × dot, 2), forming a sequence of 2D coordinates, which is passed as input to the model (sequence length = 13 frames × 4 dots).
